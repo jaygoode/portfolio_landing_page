@@ -1,0 +1,5 @@
+-dark mode toggle
+-cool animations
+-SEO optimisation - proper elements, not just divs, metadata, page speed and performance, sitemap and robots.txt(update robots.txt and sitemap)
+-custom domain
+-deployment

@@ -37,9 +37,14 @@ const jsonLd = {
 
 export default function Projects() {
   return (
-    <main>
+    <main id="projects">
       <h1>🛠️ My Projects</h1>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <p>Check out my best projects below.</p>
+      <p>Check out my best projects below.</p>
+      <p>Check out my best projects below.</p>
+      <p>Check out my best projects below.</p>
+      <p>Check out my best projects below.</p>
       <p>Check out my best projects below.</p>
     </main>
   );
