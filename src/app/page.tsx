@@ -1,4 +1,9 @@
 import Image from "next/image";
+import About from './pages/about';  
+import Projects from './pages/projects';  
+import Contact from './pages/contact';  
+import Testimonials from './pages/testimonials';  
+ 
 
 export default function Home() {
   return (
@@ -10,23 +15,23 @@ export default function Home() {
       <p>I'm a robot process automation engineer currently working at Digia Finland Oy.</p>
 
       <a href="/projects">View My Work</a> | <a href="/contact">Get in Touch</a>
-      
+
       </section>
 
       <section id="about" className="h-screen flex items-center justify-center bg-gray-200">
-      <h1>About</h1>
+      <About/>
       </section>
 
       <section id="projects" className="h-screen flex items-center justify-center bg-gray-300">
-      <h1>Projects</h1>
+      <Projects/>
       </section>
 
       <section id="contact" className="h-screen flex items-center justify-center bg-gray-400">
-      <h1>Contact</h1>
+      <Contact/>
       </section>
 
       <section id="testimonials" className="h-screen flex items-center justify-center bg-gray-500">
-      <h1>Testimonials</h1>
+      <Testimonials/>
       </section>
       
     </main>
