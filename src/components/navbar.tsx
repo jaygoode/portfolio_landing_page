@@ -1,6 +1,16 @@
 import Link from 'next/link';
 
+
+
 export default function Navbar() {
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({behavior: "smooth"});
+    }
+  }
+
+
   return (
     <nav className="fixed top-0 left-0 w-full bg-white shadow-md p-4 z-10">
       <ul className="flex space-x-6 justify-center">
