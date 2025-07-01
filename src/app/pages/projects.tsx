@@ -37,7 +37,8 @@ const jsonLd = {
 
 export default function Projects() {
   return (
-    <main id="projects">
+    <section id="projects" className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-8 w-[80vw]">
+      
       <h1>🛠️ My Projects</h1>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <p>Check out my best projects below.</p>
@@ -46,6 +47,6 @@ export default function Projects() {
       <p>Check out my best projects below.</p>
       <p>Check out my best projects below.</p>
       <p>Check out my best projects below.</p>
-    </main>
+    </section>
   );
 }

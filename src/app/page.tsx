@@ -8,7 +8,7 @@ import Testimonials from './pages/testimonials';
 export default function Frontpage() {
   return (
     <main>
-      <section id="home" className=" h-screen flex items-center justify-center bg-gray-100">
+      <section id="home" className=" h-screen flex items-center justify-center bg-gray-600">
       <Home/>
       </section>
 
@@ -16,7 +16,7 @@ export default function Frontpage() {
       <About/>
       </section>
 
-      <section id="projects" className=" h-screen flex items-center justify-center bg-gray-300">
+      <section id="projects" className=" h-screen flex items-center justify-center bg-gray-700">
       <Projects/>
       </section>
 

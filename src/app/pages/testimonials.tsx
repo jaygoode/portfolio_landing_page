@@ -2,13 +2,13 @@
 
 export default function Testimonials() {
     return (
-      <main id="testimonials">
+      <section id="testimonials" className="w-[80vw]">
         <h1>📬 Testimonials</h1>
         <p>Testimonials</p>
         <p>Testimonials</p>
         <p>Testimonials</p>
         <p>Testimonials</p>
         <p>Testimonials</p>
-      </main>
+      </section>
     );
   }
