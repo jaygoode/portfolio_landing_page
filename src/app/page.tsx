@@ -1,26 +1,22 @@
-import Image from "next/image";
 import About from './pages/about';  
+import Home from './pages/home';  
 import Projects from './pages/projects';  
 import Contact from './pages/contact';  
 import Testimonials from './pages/testimonials';  
  
 
-export default function Home() {
+export default function Frontpage() {
   return (
     <main>
-      <section>
-
-      <h1>👋 Hi, I'm Johnny Nylund</h1>
-
-      <p>I'm a robot process automation engineer.</p>
-
+      <section id="home" className=" h-screen flex items-center justify-center bg-gray-100">
+      <Home/>
       </section>
 
-      <section id="about" className="h-screen flex items-center justify-center bg-gray-200">
+      <section id="about" className=" h-screen flex items-center justify-center bg-gray-200">
       <About/>
       </section>
 
-      <section id="projects" className="h-screen flex items-center justify-center bg-gray-300">
+      <section id="projects" className=" h-screen flex items-center justify-center bg-gray-300">
       <Projects/>
       </section>
 

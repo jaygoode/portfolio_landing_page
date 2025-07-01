@@ -4,9 +4,17 @@
 
 export default function Navbar() {
   const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
+    const element = document.getElementById(id)
+    const navHeight = 80
+    
     if (element) {
-      element.scrollIntoView({behavior: "smooth"});
+      const elementPosition = element.getBoundingClientRect().top + window.pageYOffset
+      const offsetPosition = elementPosition - navHeight
+
+      window.scrollTo({
+      top: offsetPosition,
+      behavior: "smooth"
+    })
     }
   }
 
